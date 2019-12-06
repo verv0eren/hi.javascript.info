@@ -1,26 +1,25 @@
 # जावास्क्रिप्ट की परिचय
 
-चलिए हम देखते हैं कि जावास्क्रिप् इतना खास क्यों है, हम इस से क्या प्राप्त कर सकते हैं औरा कौन से अन्य टेक्नोलॉजी इसके साथ अच्छे से काम करते हैं
+चलिए हम देखते हैं कि जावास्क्रिप् इतना खास क्यों है, हम इस से क्या प्राप्त कर सकते हैं और कौन से अन्य टेक्नोलॉजी इसके साथ अच्छे से काम करते हैं
 
 ## जावास्क्रिप्ट क्या है?
 
 *जावास्क्रिप्ट* को पहली बार *वेब पेजेस चलाने* के लिए बनाया गया था
 
-इस भाषा में प्रोग्राम को *स्क्रिप्ट्स* कहा जाता है They can be written right in the HTML and executed automatically as the page loads.
+इस भाषा में प्रोग्राम को *स्क्रिप्ट्स* कहा जाता है. वे एचटीएमएल में डायरेक्टली लिखे जा सकते हैं और पेज लोड होते ही ऑटोमेटिकली रन होते हैं.
 
-The programs in this language are called *scripts*. They can be written right in a web page's HTML and run automatically as the page loads.
+स्क्रिप्ट्स को सामान्य टेक्स्ट के रूप में पर्याप्त और एक्सीक्यूट किया जाता है. उन्हें रन करने के लिए स्पेशल प्रिपरेशन या कंपाइलेशन की जरुरत नहीं पड़ती.
 
-Scripts are provided and executed as plain text. They don't need special preparation or compilation to run.
+इस मामले में, जावास्क्रिप्ट [जावा](https://hi.wikipedia.org/wiki/%E0%A4%9C%E0%A4%BE%E0%A4%B5%E0%A4%BE_(%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A5%8B%E0%A4%97%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AE%E0%A4%BF%E0%A4%82%E0%A4%97_%E0%A4%AD%E0%A4%BE%E0%A4%B7%E0%A4%BE)) कही जानेवाली दूसरी भाषा से एकदम अलग है.
 
-In this aspect, JavaScript is very different from another language called [Java](https://en.wikipedia.org/wiki/Java_(programming_language)).
+```smart header="इसे जावास्क्रिप्ट क्यों केहते है?"
+जब जावास्क्रिप्ट को बनाया गया था, पेहले उसका दूसरा नाम था: "लाइवस्क्रिप्ट". लेकिन उस वक्त जावा जावा बहोत पोपुलर था, इसलिए यह निर्णय लिया गया की अगर इस नई भाषा को जावा के "छोटे भैया" के रूप में पेश किया जायेगा तो मदद मिलेगी.
 
-```smart header="Why is it called <u>Java</u>Script?"
-When JavaScript was created, it initially had another name: "LiveScript". But Java was very popular at that time, so it was decided that positioning a new language as a "younger brother" of Java would help.
-
-But as it evolved, JavaScript became a fully independent language with its own specification called [ECMAScript](http://en.wikipedia.org/wiki/ECMAScript), and now it has no relation to Java at all.
+मगर जैसे जैसे यह विकसित हुई, जावास्क्रिप्ट उसके अपने इसीऍमअएस्क्रिप्ट कहे जानेवाले स्पेसिफिकेशन के साथ पूरी तरह से एक स्वतंत्र भाषा बन गई, और अब उसका जावा के साथ किसी भी तरह से कोई नाता नहीं है.
 ```
 
-Today, JavaScript can execute not only in the browser, but also on the server, or actually on any device that has a special program called [the JavaScript engine](https://en.wikipedia.org/wiki/JavaScript_engine).
+आज, जावास्क्रिप्ट न सिर्फ ब्राउज़र में एक्सीक्यूट हो सकती है, पर सर्वर पर भी, या वास्तव में कोई भी डिवाइस पर जिसके पास जावास्क्रिप्ट इंजन कहा जानेवाला स्पेशल प्रोग्राम है.
+
 
 The browser has an embedded engine sometimes called a "JavaScript virtual machine".
 
